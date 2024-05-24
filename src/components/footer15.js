@@ -30,11 +30,6 @@ const Footer15 = (props) => {
             </div>
             <div className="footer15-media">
               <div className="footer15-container2">
-                <img
-                  alt={props.logoAlt}
-                  src={props.logoSrc}
-                  className="footer15-image1"
-                />
                 <div className="footer15-social-links">
                   <svg
                     viewBox="0 0 877.7142857142857 1024"

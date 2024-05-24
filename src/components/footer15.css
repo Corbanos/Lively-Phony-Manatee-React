@@ -75,9 +75,6 @@
   align-items: center;
   flex-direction: column;
 }
-.footer15-image1 {
-  height: 4rem;
-}
 .footer15-social-links {
   gap: var(--dl-space-space-twounits);
   display: flex;
@@ -135,9 +132,6 @@
   }
   .footer15-media {
     width: 50%;
-  }
-  .footer15-image1 {
-    height: 4rem;
   }
   .footer15-credits {
     flex-direction: column;
@@ -217,9 +211,6 @@
   }
   .footer15-media {
     width: 100%;
-  }
-  .footer15-image1 {
-    height: 3rem;
   }
   .footer15-social-links {
     align-items: center;

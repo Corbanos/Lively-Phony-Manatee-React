@@ -19,8 +19,14 @@
   background-color: #d1510a;
 }
 .navbar41-desktop-menu {
+  fill: var(--dl-color-theme-neutral-dark);
   flex: 1;
+  color: var(--dl-color-theme-neutral-dark);
   display: flex;
+  z-index: 100;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 0px;
+  border-radius: var(--dl-radius-radius-radius4);
   justify-content: space-between;
 }
 .navbar41-links {
@@ -29,6 +35,8 @@
   display: flex;
   align-items: center;
   margin-left: var(--dl-space-space-twounits);
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 0px;
   flex-direction: row;
   justify-content: flex-start;
 }
@@ -99,16 +107,20 @@
   margin-top: var(--dl-space-space-twounits);
   align-items: center;
 }
-@media(max-width: 767px) {
-  .navbar41-navbar-interactive {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
+@media(max-width: 991px) {
   .navbar41-desktop-menu {
     display: none;
   }
   .navbar41-burger-menu {
     display: flex;
+  }
+}
+@media(max-width: 767px) {
+  .navbar41-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .navbar41-burger-menu {
     align-items: center;
     justify-content: center;
   }
